@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+#mypicture {
+    width: 160px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    margin-bottom: 3px;
+}
+
+#about {
+    position: absolute;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(green, blue, purple);
+    display: table;
+    text-align: center;
+    z-index: 9px;
+}
+
+.profile {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    display: table-cell;
+}
+
+#MyFavoriteHobby {
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    background-color: linear-gradient (light green, lightskyblue, mediumorchid height: 623px;
+ }
+
+    .line {
+        height: 6px;
+        background-color: white;
+        width: 70px;
+        margin: 8px auto;
+    }
+
+    #name {
+        font-size: 30px;
+        line-height: 1.2;
+        font-family: Fantasy, cursive;
+    }
+
+    h2 {
+        font-family:sans-serif, cursive;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    h1 {
+        font-family:inherit, serif;
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    p {
+        max-width: 450px;
+        margin: 25px auto;
+        font-size: 17px;
+        line-height: 1.3;
+        font-size: 17px;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .code {
+        width: 160px;
+        border-radius: 50%;
+    }
+
+    #hobby {
+        font-size: 30px;
+        line-height: 1.2;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .main {
+        list-style: none;
+        font-family: sans-serif;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        z-index: 10;
+        cursor: pointer;
+        position: fixed;
+    }
+
+    .link {
+        float: left;
+        color: red;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 9px;
+        padding-right: 9px;
+        font-family: fantasy;
+        font-size: 20px;
+    }
+
+    .links:hover {
+        background-image: linear-gradient( green, blue, orange);
+        font-size: 25px;
+        text-decoration: underline;
+        color: cyan;
+        font-family: fantasy;
+    }
+
+ a {
+     text-decoration: none;
+     font-size: 20px;
+    
+a:hover {
+    text-decoration: underline;
+    font-size: 25px;
+}
+     
+ .picture.hover {
+         color: darkviolet;
+     }
+     
+     html {
+         scroll-behavior: smooth;
+     }
+     
+     #Coder {
+         background-image: linear-gradient( red, #fcba03, green)
+     }
+     
+      #Inspiration {
+         background-image: linear-gradient (light green, lightskyblue)
+            }
+     
+     image {
+         width: 300px;
+     }
+     
+    #books {
+       background-image: linear-gradient (light blue, red, yellow)
+        }
+     
+     img {
+         width: 300px;
+         border-radius: 5px;
+         transition: transform .2s;
+     }
+     
+     img:hover {
+         border: 4 px solid black; 
+         transform: (0.9);
+     }
